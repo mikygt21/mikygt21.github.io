@@ -16,8 +16,8 @@
   --accent: #c8f03c;
   --accent-dim: rgba(200, 240, 60, 0.12);
   --text-primary: #f0ede8;
-  --text-secondary: #888880;
-  --text-muted: #555550;
+  --text-secondary: #a7a79d;
+  --text-muted: #94948b;
   --font-display: 'Rajdhani', sans-serif;
   --font-mono: 'Share Tech Mono', monospace;
   --font-body: 'Inter', sans-serif;
@@ -298,6 +298,27 @@ strong {
   flex-direction: column;
 }
 
+.timeline-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.timeline-list li {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.timeline-list li::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
 .timeline-item {
   display: grid;
   grid-template-columns: 200px 1fr;
@@ -312,7 +333,7 @@ strong {
 
 .timeline-date {
   font-family: var(--font-mono);
-  font-size: 0.78rem;
+  font-size: 0.9rem;
   color: var(--text-muted);
   padding-top: 0.2rem;
   letter-spacing: 0.03em;
@@ -413,13 +434,13 @@ strong {
   opacity: 0;
 }
 
-.project-card:hover .project-gif {
+/* .project-card:hover .project-gif {
   opacity: 1;
 }
 
 .project-card:hover .project-preview {
   opacity: 0;
-}
+} */
 
 .project-media-placeholder {
   position: absolute;
