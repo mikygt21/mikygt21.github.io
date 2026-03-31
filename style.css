@@ -333,7 +333,7 @@ strong {
 
 .timeline-date {
   font-family: var(--font-mono);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--text-muted);
   padding-top: 0.2rem;
   letter-spacing: 0.03em;
@@ -341,9 +341,9 @@ strong {
 
 .timeline-content h3 {
   font-family: var(--font-display);
-  font-size: 1.25rem;
+  font-size: 1.45rem;
   font-weight: 600;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
   color: var(--text-primary);
   margin-bottom: 0.2rem;
 }
@@ -460,8 +460,9 @@ strong {
 
 .project-title {
   font-family: var(--font-display);
-  font-size: 1.4rem;
+  font-size: 1.75rem;
   font-weight: 600;
+  font-style: italic;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--text-primary);
