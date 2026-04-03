@@ -98,6 +98,11 @@ strong {
   color: var(--text-primary);
 }
 
+.nav-cta-container {
+  display: flex; 
+  gap: 0.5rem;
+}
+
 .nav-cta {
   border: 1px solid var(--accent);
   color: var(--accent) !important;
@@ -259,7 +264,7 @@ strong {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   color: var(--text-primary);
 }
 
