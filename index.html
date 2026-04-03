@@ -302,13 +302,9 @@
 
   <script>
     function openLinkedIn(e) {
-      const isAndroid = /android/i.test(navigator.userAgent);
-      const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+      const isMobile = /android|iphone|ipad|ipod/i.test(navigator.userAgent);
 
-      if (isAndroid) {
-        e.preventDefault();
-        window.location = 'intent://www.linkedin.com/in/miquel-guspi-tricas#Intent;package=com.linkedin.android;scheme=https;end';
-      } else if (isIOS) {
+      if (isMobile) {
         e.preventDefault();
         window.location = 'linkedin://profile/miquel-guspi-tricas';
         setTimeout(() => {
