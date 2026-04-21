@@ -462,13 +462,21 @@ strong {
   opacity: 0;
 }
 
-/* .project-card:hover .project-gif {
+.project-card:hover .project-gif {
   opacity: 1;
 }
 
 .project-card:hover .project-preview {
   opacity: 0;
-} */
+}
+
+.project-card.no-gif:hover .project-gif {
+  opacity: 0;
+}
+
+.project-card.no-gif:hover .project-preview {
+  opacity: 1;
+}
 
 .project-media-placeholder {
   position: absolute;
