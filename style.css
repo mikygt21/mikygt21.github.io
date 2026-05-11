@@ -295,6 +295,16 @@ strong {
   margin-bottom: 0.85rem;
 }
 
+.education-group-title {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.85rem;
+  margin-top: 3.75em;
+}
+
 .education-item {
   padding: 1.25em 0;
   border-top: 1px solid var(--border);
