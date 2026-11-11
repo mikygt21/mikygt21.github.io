@@ -250,6 +250,27 @@ strong {
 }
 
 /* ==============================
+   LANGUAGE SWITCH
+============================== */
+.lang-switch { display: flex; gap: 0.25rem; }
+
+.lang-switch a {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  padding: 0.25rem 0.5rem;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.lang-switch a:hover,
+.lang-switch a.active {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* ==============================
    SECTIONS
 ============================== */
 .section {
